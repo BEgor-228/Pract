@@ -1,0 +1,11 @@
+--2025-04-06 22:25:35--  https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdFdAIGokYojhWtdWwU454KlRRL86cHI10-KTOQmdvii37egnaET3D9J0KX3iKUNRA9kw
+Resolving encrypted-tbn0.gstatic.com (encrypted-tbn0.gstatic.com)... 64.233.161.113, 64.233.161.100, 64.233.161.101, ...
+Connecting to encrypted-tbn0.gstatic.com (encrypted-tbn0.gstatic.com)|64.233.161.113|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 9823 (9.6K) [image/jpeg]
+Saving to: ‘/usr/local/share/relax/images?q=tbn:ANd9GcSdFdAIGokYojhWtdWwU454KlRRL86cHI10-KTOQmdvii37egnaET3D9J0KX3iKUNRA9kw’
+
+          images?q=   0%[                    ]       0  --.-KB/s               images?q=tbn:ANd9Gc 100%[===================>]   9.59K  --.-KB/s    in 0s      
+
+2025-04-06 22:25:36 (42.5 MB/s) - ‘/usr/local/share/relax/images?q=tbn:ANd9GcSdFdAIGokYojhWtdWwU454KlRRL86cHI10-KTOQmdvii37egnaET3D9J0KX3iKUNRA9kw’ saved [9823/9823]
+

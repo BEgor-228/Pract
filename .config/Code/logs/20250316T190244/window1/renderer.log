@@ -1,0 +1,22 @@
+2025-03-16 19:02:47.605 [info] Started local extension host with pid 3205.
+2025-03-16 19:02:47.834 [info] Started initializing default profile extensions in extensions installation folder. file:///home/bezrukavnikov/.vscode/extensions
+2025-03-16 19:02:49.461 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/bezrukavnikov/.vscode/extensions
+2025-03-16 19:03:36.263 [info] [perf] Render performance baseline is 27ms
+2025-03-16 19:07:45.007 [warning] [backup tracker] suspended, ignoring dirty change event file:///home/bezrukavnikov/Documents/prog/getpid.cpp 
+2025-03-16 19:07:46.548 [info] Started local extension host with pid 3931.
+2025-03-16 19:07:49.617 [info] [perf] Render performance baseline is 43ms
+2025-03-16 23:31:46.795 [error] TreeError [DebugRepl] Tree input not set: Error: TreeError [DebugRepl] Tree input not set
+    at Yd.C (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:416:30917)
+    at Yd.updateChildren (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:416:30824)
+    at vZ.value (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2054:35241)
+    at x.B (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:30:747)
+    at x.C (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:30:817)
+    at x.fire (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:30:1034)
+    at Fme.setVisible (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:532:2801)
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:648:11845
+    at Array.map (<anonymous>)
+    at sh.setVisible (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:648:11836)
+2025-03-17 08:12:13.339 [error] [network] #34: https://az764295.vo.msecnd.net/extensions/chat.json - error GET Failed to fetch
+2025-03-17 08:12:13.348 [warning] Failed to fetch chat participant registry Failed to fetch
+2025-03-17 08:17:26.532 [error] [network] #35: https://az764295.vo.msecnd.net/extensions/chat.json - error GET Failed to fetch
+2025-03-17 08:17:26.535 [warning] Failed to fetch chat participant registry Failed to fetch

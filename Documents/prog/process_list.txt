@@ -1,0 +1,450 @@
+Список процессов от дочернего процесса:
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root           1  0.0  0.3 168244 12532 ?        Ss   05:22   0:02 /sbin/init
+root           2  0.0  0.0      0     0 ?        S    05:22   0:00 [kthreadd]
+root           3  0.0  0.0      0     0 ?        I<   05:22   0:00 [rcu_gp]
+root           4  0.0  0.0      0     0 ?        I<   05:22   0:00 [rcu_par_gp]
+root           5  0.0  0.0      0     0 ?        I<   05:22   0:00 [slub_flushwq]
+root           6  0.0  0.0      0     0 ?        I<   05:22   0:00 [netns]
+root           8  0.0  0.0      0     0 ?        I<   05:22   0:00 [kworker/0:0H-events_highpri]
+root          10  0.0  0.0      0     0 ?        I<   05:22   0:00 [mm_percpu_wq]
+root          11  0.0  0.0      0     0 ?        I    05:22   0:00 [rcu_tasks_kthread]
+root          12  0.0  0.0      0     0 ?        I    05:22   0:00 [rcu_tasks_rude_kthread]
+root          13  0.0  0.0      0     0 ?        I    05:22   0:00 [rcu_tasks_trace_kthread]
+root          14  0.0  0.0      0     0 ?        S    05:22   0:00 [ksoftirqd/0]
+root          15  0.1  0.0      0     0 ?        I    05:22   0:17 [rcu_preempt]
+root          16  0.0  0.0      0     0 ?        S    05:22   0:00 [migration/0]
+root          18  0.0  0.0      0     0 ?        S    05:22   0:00 [cpuhp/0]
+root          19  0.0  0.0      0     0 ?        S    05:22   0:00 [cpuhp/1]
+root          20  0.0  0.0      0     0 ?        S    05:22   0:00 [migration/1]
+root          21  0.0  0.0      0     0 ?        S    05:22   0:06 [ksoftirqd/1]
+root          23  0.0  0.0      0     0 ?        I<   05:22   0:00 [kworker/1:0H-events_highpri]
+root          24  0.0  0.0      0     0 ?        S    05:22   0:00 [cpuhp/2]
+root          25  0.0  0.0      0     0 ?        S    05:22   0:00 [migration/2]
+root          26  0.0  0.0      0     0 ?        S    05:22   0:00 [ksoftirqd/2]
+root          28  0.0  0.0      0     0 ?        I<   05:22   0:00 [kworker/2:0H-events_highpri]
+root          29  0.0  0.0      0     0 ?        S    05:22   0:00 [cpuhp/3]
+root          30  0.0  0.0      0     0 ?        S    05:22   0:00 [migration/3]
+root          31  0.0  0.0      0     0 ?        S    05:22   0:00 [ksoftirqd/3]
+root          33  0.0  0.0      0     0 ?        I<   05:22   0:00 [kworker/3:0H-events_highpri]
+root          37  0.0  0.0      0     0 ?        S    05:22   0:00 [kdevtmpfs]
+root          38  0.0  0.0      0     0 ?        I<   05:22   0:00 [inet_frag_wq]
+root          39  0.0  0.0      0     0 ?        S    05:22   0:00 [kauditd]
+root          40  0.0  0.0      0     0 ?        S    05:22   0:00 [khungtaskd]
+root          41  0.0  0.0      0     0 ?        S    05:22   0:00 [oom_reaper]
+root          42  0.0  0.0      0     0 ?        I<   05:22   0:00 [writeback]
+root          43  0.0  0.0      0     0 ?        S    05:22   0:06 [kcompactd0]
+root          44  0.0  0.0      0     0 ?        SN   05:22   0:00 [ksmd]
+root          45  0.0  0.0      0     0 ?        SN   05:22   0:02 [khugepaged]
+root          46  0.0  0.0      0     0 ?        I<   05:22   0:00 [kintegrityd]
+root          47  0.0  0.0      0     0 ?        I<   05:22   0:00 [kblockd]
+root          48  0.0  0.0      0     0 ?        I<   05:22   0:00 [blkcg_punt_bio]
+root          49  0.0  0.0      0     0 ?        I<   05:22   0:00 [tpm_dev_wq]
+root          50  0.0  0.0      0     0 ?        I<   05:22   0:00 [edac-poller]
+root          51  0.0  0.0      0     0 ?        I<   05:22   0:00 [devfreq_wq]
+root          53  0.0  0.0      0     0 ?        I<   05:22   0:02 [kworker/2:1H-kblockd]
+root          54  0.0  0.0      0     0 ?        S    05:22   0:01 [kswapd0]
+root          61  0.0  0.0      0     0 ?        I<   05:22   0:00 [kthrotld]
+root          63  0.0  0.0      0     0 ?        I<   05:22   0:00 [acpi_thermal_pm]
+root          66  0.0  0.0      0     0 ?        I<   05:22   0:00 [mld]
+root          67  0.0  0.0      0     0 ?        I<   05:22   0:00 [ipv6_addrconf]
+root          68  0.0  0.0      0     0 ?        I<   05:22   0:00 [kworker/1:1H-kblockd]
+root          73  0.0  0.0      0     0 ?        I<   05:22   0:00 [kstrp]
+root          78  0.0  0.0      0     0 ?        I<   05:22   0:00 [zswap-shrink]
+root          79  0.0  0.0      0     0 ?        I<   05:22   0:00 [kworker/u9:0]
+root         134  0.0  0.0      0     0 ?        I<   05:22   0:00 [kworker/3:1H-kblockd]
+root         135  0.0  0.0      0     0 ?        I<   05:22   0:00 [kworker/0:1H-kblockd]
+root         156  0.0  0.0      0     0 ?        I<   05:22   0:00 [ata_sff]
+root         157  0.0  0.0      0     0 ?        S    05:22   0:00 [irq/18-vmwgfx]
+root         158  0.0  0.0      0     0 ?        S    05:22   0:00 [scsi_eh_0]
+root         159  0.0  0.0      0     0 ?        I<   05:22   0:00 [scsi_tmf_0]
+root         160  0.0  0.0      0     0 ?        S    05:22   0:00 [scsi_eh_1]
+root         161  0.0  0.0      0     0 ?        I<   05:22   0:00 [scsi_tmf_1]
+root         163  0.0  0.0      0     0 ?        S    05:22   0:00 [scsi_eh_2]
+root         164  0.0  0.0      0     0 ?        I<   05:22   0:00 [scsi_tmf_2]
+root         215  0.0  0.0      0     0 ?        S    05:23   0:03 [jbd2/sda1-8]
+root         216  0.0  0.0      0     0 ?        I<   05:23   0:00 [ext4-rsv-conver]
+root         259  0.0  0.4  50008 16612 ?        Ss   05:23   0:01 /lib/systemd/systemd-journald
+root         299  0.0  0.1  27628  6492 ?        Ss   05:23   0:00 /lib/systemd/systemd-udevd
+root         404  0.0  0.0      0     0 ?        I<   05:23   0:00 [cryptd]
+root         405  0.0  0.0      0     0 ?        I<   05:23   0:00 [iprt-VBoxWQueue]
+root         528  0.0  0.2 236960  9392 ?        Ssl  05:23   0:00 /usr/libexec/accounts-daemon
+avahi        530  0.0  0.0   8288  3640 ?        Ss   05:23   0:00 avahi-daemon: running [vbox.local]
+root         531  0.0  0.0   6608  2728 ?        Ss   05:23   0:00 /usr/sbin/cron -f
+message+     532  0.0  0.2  16988 11568 ?        Ss   05:23   0:06 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+root         534  0.0  0.1 230020  4440 ?        SLsl 05:23   0:00 /usr/libexec/low-memory-monitor
+polkitd      535  0.0  0.2 310940 10812 ?        Ssl  05:23   0:00 /usr/lib/polkit-1/polkitd --no-debug
+root         536  0.0  0.2 236992  9012 ?        Ssl  05:23   0:00 /usr/libexec/power-profiles-daemon
+root         537  0.0  0.2 233376  8296 ?        Ssl  05:23   0:00 /usr/libexec/switcheroo-control
+root         538  0.0  0.1  25348  7844 ?        Ss   05:23   0:01 /lib/systemd/systemd-logind
+root         539  0.0  0.3 394920 15076 ?        Ssl  05:23   0:00 /usr/libexec/udisks2/udisksd
+avahi        542  0.0  0.0   8100   356 ?        S    05:23   0:00 avahi-daemon: chroot helper
+root         555  0.0  0.5 258640 23536 ?        Ssl  05:23   0:01 /usr/sbin/NetworkManager --no-daemon
+root         585  0.0  0.0      0     0 ?        S    05:23   0:00 [psimon]
+root         586  0.0  0.1  16532  5872 ?        Ss   05:23   0:00 /sbin/wpa_supplicant -u -s -O DIR=/run/wpa_supplicant GROUP=netdev
+root         590  0.0  0.2 317320 11956 ?        Ssl  05:23   0:00 /usr/sbin/ModemManager
+root         682  0.2  0.9 1352580 39592 ?       Ssl  05:23   0:28 /usr/bin/containerd
+root         768  0.1  0.0 352820  3172 ?        Sl   05:23   0:16 /usr/bin/VBoxDRMClient
+root         771  0.0  0.0 358472  2744 ?        Sl   05:23   0:03 /usr/sbin/VBoxService --pidfile /var/run/vboxadd-service.sh
+root         789  0.0  0.2 240388 10848 ?        Ssl  05:23   0:00 /usr/sbin/gdm3
+rtkit        832  0.0  0.0  22700  1524 ?        SNsl 05:23   0:00 /usr/libexec/rtkit-daemon
+root         884  0.0  1.5 1385596 60620 ?       Ssl  05:23   0:02 /usr/sbin/dockerd -H fd:// --containerd=/run/containerd/containerd.sock
+root        1131  0.0  0.2 233880  8300 ?        Ssl  05:23   0:00 /usr/libexec/upowerd
+colord      1152  0.0  0.3 242324 13728 ?        Ssl  05:23   0:00 /usr/libexec/colord
+root        1418  0.0  0.3 312808 13836 ?        Sl   05:23   0:00 gdm-session-worker [pam/gdm-password]
+bezruka+    1432  0.0  0.2  19756 11400 ?        Ss   05:23   0:00 /lib/systemd/systemd --user
+bezruka+    1436  0.0  0.0 169420  3128 ?        S    05:23   0:00 (sd-pam)
+bezruka+    1452  0.0  0.2  44640  8788 ?        S<sl 05:23   0:00 /usr/bin/pipewire
+bezruka+    1455  0.0  0.3 257220 13680 ?        S<sl 05:23   0:00 /usr/bin/wireplumber
+bezruka+    1457  0.0  0.1  27140  7388 ?        S<sl 05:23   0:00 /usr/bin/pipewire-pulse
+bezruka+    1459  0.0  0.1  10456  5608 ?        Ss   05:23   0:01 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+bezruka+    1462  0.0  0.2 239900 11076 ?        SLsl 05:23   0:00 /usr/bin/gnome-keyring-daemon --foreground --components=pkcs11,secrets --control-directory=/run/user/1004/keyring
+bezruka+    1466  0.0  0.2 237512  9116 ?        Ssl  05:23   0:00 /usr/libexec/gvfsd
+bezruka+    1478  0.0  0.2 380372 10040 ?        Sl   05:23   0:00 /usr/libexec/gvfsd-fuse /run/user/1004/gvfs -f
+bezruka+    1497  0.0  0.1 159280  5740 tty2     Ssl+ 05:23   0:00 /usr/libexec/gdm-wayland-session /usr/bin/gnome-session
+bezruka+    1501  0.0  0.4 297964 16676 tty2     Sl+  05:23   0:00 /usr/libexec/gnome-session-binary
+bezruka+    1528  0.0  0.7 704964 28796 ?        SNsl 05:23   0:02 /usr/libexec/tracker-miner-fs-3
+bezruka+    1561  0.0  0.1  88380  5232 ?        Ssl  05:23   0:00 /usr/libexec/gcr-ssh-agent /run/user/1004/gcr
+bezruka+    1565  0.0  0.1  88828  4916 ?        Ssl  05:23   0:00 /usr/libexec/gnome-session-ctl --monitor
+bezruka+    1567  0.0  0.1   7816  5096 ?        Ss   05:23   0:00 ssh-agent -D -a /run/user/1004/openssh_agent
+bezruka+    1585  0.0  0.5 659372 20264 ?        Ssl  05:23   0:00 /usr/libexec/gnome-session-binary --systemd-service --session=gnome
+bezruka+    1601  0.0  0.2 311212  9516 ?        Sl   05:23   0:00 /usr/libexec/at-spi-bus-launcher --launch-immediately
+bezruka+    1605  9.6 10.5 4965292 422468 ?      Ssl  05:23  16:40 /usr/bin/gnome-shell
+bezruka+    1611  0.0  0.1   9260  4472 ?        S    05:23   0:00 /usr/bin/dbus-daemon --config-file=/usr/share/defaults/at-spi2/accessibility.conf --nofork --print-address 11 --address=unix:path=/run/user/1004/at-spi/bus
+bezruka+    1622  0.0  0.3 572872 14596 ?        Ssl  05:23   0:00 /usr/libexec/gvfs-udisks2-volume-monitor
+bezruka+    1650  0.0  0.2 234440 10236 ?        Ssl  05:23   0:00 /usr/libexec/gvfs-gphoto2-volume-monitor
+bezruka+    1660  0.0  0.2 233352  8108 ?        Ssl  05:23   0:00 /usr/libexec/gvfs-mtp-volume-monitor
+bezruka+    1670  0.0  0.2 312420  9760 ?        Ssl  05:23   0:01 /usr/libexec/gvfs-afc-volume-monitor
+bezruka+    1675  0.0  0.1 233520  8012 ?        Ssl  05:23   0:00 /usr/libexec/gvfs-goa-volume-monitor
+bezruka+    1679  0.0  0.4 597908 19464 ?        Sl   05:23   0:00 /usr/libexec/goa-daemon
+bezruka+    1691  0.0  0.2 312572  9896 ?        Sl   05:23   0:00 /usr/libexec/goa-identity-service
+bezruka+    1708  0.0  0.1 236700  7608 ?        Ssl  05:23   0:00 /usr/libexec/xdg-permission-store
+bezruka+    1710  0.0  0.3 581176 15060 ?        Sl   05:23   0:00 /usr/libexec/gnome-shell-calendar-server
+bezruka+    1721  0.0  0.9 1081300 37060 ?       Ssl  05:23   0:00 /usr/libexec/evolution-source-registry
+bezruka+    1734  0.0  0.7 2653420 28288 ?       Sl   05:23   0:00 /usr/bin/gjs /usr/share/gnome-shell/org.gnome.Shell.Notifications
+bezruka+    1735  0.0  0.2 164320  9468 ?        Sl   05:23   0:00 /usr/libexec/at-spi2-registryd --use-gnome-session
+bezruka+    1741  0.0  0.5 1093140 23744 ?       Ssl  05:23   0:00 /usr/libexec/evolution-calendar-factory
+bezruka+    1753  0.0  0.0   2576   672 ?        Ss   05:23   0:00 sh -c /usr/bin/ibus-daemon --panel disable $([ "$XDG_SESSION_TYPE" = "x11" ] && echo "--xim")
+bezruka+    1754  0.0  0.2 307344 10160 ?        Ssl  05:23   0:00 /usr/libexec/gsd-a11y-settings
+bezruka+    1759  0.0  0.3 313204 14756 ?        Sl   05:23   0:01 /usr/bin/ibus-daemon --panel disable
+bezruka+    1761  0.0  0.6 339844 25164 ?        Ssl  05:23   0:00 /usr/libexec/gsd-color
+bezruka+    1762  0.0  0.3 355236 14092 ?        Ssl  05:23   0:00 /usr/libexec/gsd-datetime
+bezruka+    1764  0.0  0.2 382640 11184 ?        Ssl  05:23   0:00 /usr/libexec/gsd-housekeeping
+bezruka+    1767  0.0  0.6 338668 24280 ?        Ssl  05:23   0:00 /usr/libexec/gsd-keyboard
+bezruka+    1769  0.0  0.7 594452 29420 ?        Ssl  05:23   0:00 /usr/libexec/gsd-media-keys
+bezruka+    1773  0.0  0.6 523880 27108 ?        Ssl  05:23   0:00 /usr/libexec/gsd-power
+bezruka+    1775  0.0  0.3 247204 12860 ?        Ssl  05:23   0:00 /usr/libexec/gsd-print-notifications
+bezruka+    1777  0.0  0.2 454760  9936 ?        Ssl  05:23   0:00 /usr/libexec/gsd-rfkill
+bezruka+    1781  0.0  0.2 233176  8336 ?        Ssl  05:23   0:00 /usr/libexec/gsd-screensaver-proxy
+bezruka+    1786  0.0  0.2 463248 11936 ?        Ssl  05:23   0:00 /usr/libexec/gsd-sharing
+bezruka+    1787  0.0  0.3 385564 13420 ?        Ssl  05:23   0:00 /usr/libexec/gsd-smartcard
+bezruka+    1789  0.0  0.1 231784  6100 ?        Sl   05:23   0:00 /usr/libexec/gsd-disk-utility-notify
+bezruka+    1793  0.0  0.3 319360 13260 ?        Ssl  05:23   0:00 /usr/libexec/gsd-sound
+bezruka+    1796  0.0  0.2 455892 10936 ?        Ssl  05:23   0:00 /usr/libexec/gsd-usb-protection
+bezruka+    1797  0.0  0.6 339264 24468 ?        Ssl  05:23   0:00 /usr/libexec/gsd-wacom
+bezruka+    1812  0.0  2.8 1019092 115340 ?      Sl   05:23   0:05 /usr/bin/gnome-software --gapplication-service
+bezruka+    1849  0.0  1.5 927940 63948 ?        Sl   05:23   0:00 /usr/libexec/evolution-data-server/evolution-alarm-notify
+bezruka+    1883  0.0  0.3 341908 15788 ?        Sl   05:23   0:00 /usr/libexec/gsd-printer
+bezruka+    1888  0.0  0.1 234192  7068 ?        Sl   05:23   0:00 /usr/libexec/ibus-dconf
+bezruka+    1894  0.0  0.7 344608 30328 ?        Sl   05:23   0:01 /usr/libexec/ibus-extension-gtk3
+bezruka+    1912  0.0  0.2 234160  8400 ?        Sl   05:23   0:00 /usr/libexec/ibus-portal
+bezruka+    1941  0.0  0.7 2579696 28548 ?       Sl   05:23   0:00 /usr/bin/gjs /usr/share/gnome-shell/org.gnome.ScreenSaver
+bezruka+    1956  0.0  0.6 743688 25824 ?        Ssl  05:23   0:00 /usr/libexec/evolution-addressbook-factory
+bezruka+    1966  0.8  2.0 252960 82036 ?        R    05:23   1:25 /usr/bin/Xwayland :0 -rootless -noreset -accessx -core -auth /run/user/1004/.mutter-Xwaylandauth.28WB32 -listenfd 4 -listenfd 5 -displayfd 6 -initfd 7
+bezruka+    1988  0.0  0.2 160492  9100 ?        Sl   05:23   0:00 /usr/libexec/ibus-engine-simple
+bezruka+    2003  0.0  0.3 621572 14296 ?        Ssl  05:23   0:00 /usr/libexec/xdg-desktop-portal
+bezruka+    2015  0.0  0.2 460344 10716 ?        Ssl  05:23   0:00 /usr/libexec/xdg-document-portal
+root        2020  0.0  0.0   2480   908 ?        Ss   05:23   0:00 fusermount3 -o rw,nosuid,nodev,fsname=portal,auto_unmount,subtype=portal -- /run/user/1004/doc
+bezruka+    2026  0.0  2.1 551596 84824 ?        Ssl  05:23   0:00 /usr/libexec/gsd-xsettings
+bezruka+    2028  0.0  0.8 667212 33164 ?        Ssl  05:23   0:00 /usr/libexec/xdg-desktop-portal-gnome
+bezruka+    2100  0.0  0.7 342688 28924 ?        Ssl  05:23   0:00 /usr/libexec/xdg-desktop-portal-gtk
+bezruka+    2119  0.0  0.5 190088 22884 ?        Sl   05:23   0:00 /usr/libexec/ibus-x11
+bezruka+    2143  0.0  0.0  18684   248 ?        S    05:23   0:00 /usr/bin/VBoxClient --clipboard
+bezruka+    2144  0.0  0.0 217500  2492 ?        Sl   05:23   0:00 /usr/bin/VBoxClient --clipboard
+bezruka+    2170  0.0  0.0  18684   280 ?        S    05:23   0:00 /usr/bin/VBoxClient --vmsvga-session
+bezruka+    2171  0.0  0.0 150788   312 ?        Sl   05:23   0:03 /usr/bin/VBoxClient --vmsvga-session
+bezruka+    2494  0.0  1.3 694252 55264 ?        Ssl  05:23   0:07 /usr/libexec/gnome-terminal-server
+bezruka+    2520  0.0  0.0   8244  3688 pts/0    Ss+  05:23   0:00 bash
+bezruka+    2581  0.0  0.2 159956  8376 ?        Ssl  05:24   0:00 /usr/libexec/gvfsd-metadata
+bezruka+    2999  0.0  0.1 156452  5520 ?        Ssl  05:25   0:00 /usr/libexec/dconf-service
+bezruka+    3093  1.5  5.4 1214206204 218104 ?   Sl   05:31   2:34 /usr/share/code/code
+bezruka+    3099  0.0  1.1 33789140 46524 ?      S    05:31   0:00 /usr/share/code/code --type=zygote --no-zygote-sandbox
+bezruka+    3100  0.0  1.1 33789132 46472 ?      S    05:31   0:00 /usr/share/code/code --type=zygote
+bezruka+    3102  0.0  0.2 33789160 12008 ?      S    05:31   0:00 /usr/share/code/code --type=zygote
+bezruka+    3134  1.4  3.0 34113604 123988 ?     Sl   05:31   2:26 /usr/share/code/code --type=gpu-process --enable-crash-reporter=8d456455-788a-42f9-8941-19d1e53625de,no_channel --user-data-dir=/home/bezrukavnikov/.config/Code --gpu-preferences=UAAAAAAAAAAgAAAEAAAAAAAAAAAAAAAAAABgAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAABAAAAAAAAAAEAAAAAAAAAAIAAAAAAAAAAgAAAAAAAAA --shared-files --field-trial-handle=3,i,18299075073113812561,2497372753161876770,262144 --disable-features=CalculateNativeWinOcclusion,SpareRendererForSitePerProcess --variations-seed-version
+bezruka+    3151  0.0  1.7 33839432 72044 ?      Sl   05:31   0:03 /usr/share/code/code --type=utility --utility-sub-type=network.mojom.NetworkService --lang=en-US --service-sandbox-type=none --enable-crash-reporter=8d456455-788a-42f9-8941-19d1e53625de,no_channel --user-data-dir=/home/bezrukavnikov/.config/Code --standard-schemes=vscode-webview,vscode-file --enable-sandbox --secure-schemes=vscode-webview,vscode-file --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --code-cache-schemes=vscode-webview,vscode-file --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,18299075073113812561,2497372753161876770,262144 --disable-features=CalculateNativeWinOcclusion,SpareRendererForSitePerProcess --variations-seed-version
+bezruka+    3164  5.5  9.7 1215884664 392040 ?   Rl   05:31   9:10 /usr/share/code/code --type=renderer --enable-crash-reporter=8d456455-788a-42f9-8941-19d1e53625de,no_channel --user-data-dir=/home/bezrukavnikov/.config/Code --standard-schemes=vscode-webview,vscode-file --enable-sandbox --secure-schemes=vscode-webview,vscode-file --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --code-cache-schemes=vscode-webview,vscode-file --app-path=/usr/share/code/resources/app --enable-sandbox --enable-blink-features=HighlightAPI --disable-blink-features=FontMatchingCTMigration, --lang=en-US --num-raster-threads=2 --enable-main-frame-before-activation --renderer-client-id=4 --time-ticks-at-unix-epoch=-1742140422257853 --launch-time-ticks=542437601 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,18299075073113812561,2497372753161876770,262144 --disable-features=CalculateNativeWinOcclusion,SpareRendererForSitePerProcess --variations-seed-version --vscode-window-config=vscode:898a7384-8882-44d8-8c0d-7c6ca5c7fcb9
+bezruka+    3190  0.0  3.3 1213942292 134668 ?   Sl   05:32   0:08 /usr/share/code/code --type=utility --utility-sub-type=node.mojom.NodeService --lang=en-US --service-sandbox-type=none --enable-crash-reporter=8d456455-788a-42f9-8941-19d1e53625de,no_channel --user-data-dir=/home/bezrukavnikov/.config/Code --standard-schemes=vscode-webview,vscode-file --enable-sandbox --secure-schemes=vscode-webview,vscode-file --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --code-cache-schemes=vscode-webview,vscode-file --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,18299075073113812561,2497372753161876770,262144 --disable-features=CalculateNativeWinOcclusion,SpareRendererForSitePerProcess --variations-seed-version
+bezruka+    3366  0.0  0.2 311620  9300 ?        Sl   05:32   0:00 /usr/libexec/gvfsd-trash --spawner :1.5 /org/gtk/gvfs/exec_spaw/0
+bezruka+    3381  0.0  0.2 385644 11796 ?        Sl   05:32   0:00 /usr/libexec/gvfsd-network --spawner :1.5 /org/gtk/gvfs/exec_spaw/1
+bezruka+    3402  0.0  0.2 313728 11808 ?        Sl   05:32   0:00 /usr/libexec/gvfsd-dnssd --spawner :1.5 /org/gtk/gvfs/exec_spaw/3
+bezruka+    3655  0.6  2.8 1213959300 112840 ?   Sl   05:33   0:59 /usr/share/code/code --type=utility --utility-sub-type=node.mojom.NodeService --lang=en-US --service-sandbox-type=none --enable-crash-reporter=8d456455-788a-42f9-8941-19d1e53625de,no_channel --user-data-dir=/home/bezrukavnikov/.config/Code --standard-schemes=vscode-webview,vscode-file --enable-sandbox --secure-schemes=vscode-webview,vscode-file --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --code-cache-schemes=vscode-webview,vscode-file --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,18299075073113812561,2497372753161876770,262144 --disable-features=CalculateNativeWinOcclusion,SpareRendererForSitePerProcess --variations-seed-version
+bezruka+    3918  0.1  2.4 1213959244 97876 ?    Sl   05:37   0:10 /usr/share/code/code --type=utility --utility-sub-type=node.mojom.NodeService --lang=en-US --service-sandbox-type=none --enable-crash-reporter=8d456455-788a-42f9-8941-19d1e53625de,no_channel --user-data-dir=/home/bezrukavnikov/.config/Code --standard-schemes=vscode-webview,vscode-file --enable-sandbox --secure-schemes=vscode-webview,vscode-file --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --code-cache-schemes=vscode-webview,vscode-file --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,18299075073113812561,2497372753161876770,262144 --disable-features=CalculateNativeWinOcclusion,SpareRendererForSitePerProcess --variations-seed-version
+bezruka+    3931  0.0  3.3 1213943912 133316 ?   Sl   05:37   0:08 /usr/share/code/code --type=utility --utility-sub-type=node.mojom.NodeService --lang=en-US --service-sandbox-type=none --dns-result-order=ipv4first --inspect-port=0 --enable-crash-reporter=8d456455-788a-42f9-8941-19d1e53625de,no_channel --user-data-dir=/home/bezrukavnikov/.config/Code --standard-schemes=vscode-webview,vscode-file --enable-sandbox --secure-schemes=vscode-webview,vscode-file --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --code-cache-schemes=vscode-webview,vscode-file --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,18299075073113812561,2497372753161876770,262144 --disable-features=CalculateNativeWinOcclusion,SpareRendererForSitePerProcess --variations-seed-version
+bezruka+    4275  0.0  0.1   8244  4504 pts/2    Ss+  05:44   0:00 bash
+bezruka+    4445  3.2 11.0 11750592 444116 ?     Sl   06:05   4:13 /usr/lib/firefox-esr/firefox-esr
+bezruka+    4514  0.0  0.8 223832 34392 ?        Sl   06:05   0:00 /usr/lib/firefox-esr/firefox-esr -contentproc -parentBuildID 20241021193311 -prefsLen 27374 -prefMapSize 248195 -appDir /usr/lib/firefox-esr/browser {b7557f94-8a05-4064-bb6d-833bc59a9146} 4445 true socket
+bezruka+    4539  0.0  3.1 2466352 128088 ?      Sl   06:05   0:03 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 1 -isForBrowser -prefsLen 27450 -prefMapSize 248195 -jsInitLen 234780 -parentBuildID 20241021193311 -greomni /usr/lib/firefox-esr/omni.ja -appomni /usr/lib/firefox-esr/browser/omni.ja -appDir /usr/lib/firefox-esr/browser {8409ff6c-896a-4f0f-bfe2-350276dd55e7} 4445 true tab
+bezruka+    4591  0.0  2.4 2450428 99288 ?       Sl   06:05   0:02 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 2 -isForBrowser -prefsLen 33171 -prefMapSize 248195 -jsInitLen 234780 -parentBuildID 20241021193311 -greomni /usr/lib/firefox-esr/omni.ja -appomni /usr/lib/firefox-esr/browser/omni.ja -appDir /usr/lib/firefox-esr/browser {34848d72-e549-4f6b-a220-6d8012ef8cab} 4445 true tab
+bezruka+    4647  0.0  0.9 222848 36624 ?        Sl   06:05   0:00 /usr/lib/firefox-esr/firefox-esr -contentproc -parentBuildID 20241021193311 -sandboxingKind 0 -prefsLen 33282 -prefMapSize 248195 -appDir /usr/lib/firefox-esr/browser {2ec0330a-af40-4fce-ab32-bef7a333043b} 4445 true utility
+bezruka+    4673  5.1  6.8 19648964 273428 ?     Sl   06:05   6:42 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 4 -isForBrowser -prefsLen 30716 -prefMapSize 248195 -jsInitLen 234780 -parentBuildID 20241021193311 -greomni /usr/lib/firefox-esr/omni.ja -appomni /usr/lib/firefox-esr/browser/omni.ja -appDir /usr/lib/firefox-esr/browser {a3464e8b-bdcc-4bb6-a476-158d0efabd6a} 4445 true tab
+bezruka+    4730  0.1  2.3 2449460 92816 ?       Sl   06:05   0:12 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 6 -isForBrowser -prefsLen 30821 -prefMapSize 248195 -jsInitLen 234780 -parentBuildID 20241021193311 -greomni /usr/lib/firefox-esr/omni.ja -appomni /usr/lib/firefox-esr/browser/omni.ja -appDir /usr/lib/firefox-esr/browser {3f386727-5705-4cc5-ae5b-9d6e828fb928} 4445 true tab
+bezruka+    4771  0.0  1.8 2416572 75476 ?       Sl   06:05   0:01 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 7 -isForBrowser -prefsLen 30902 -prefMapSize 248195 -jsInitLen 234780 -parentBuildID 20241021193311 -greomni /usr/lib/firefox-esr/omni.ja -appomni /usr/lib/firefox-esr/browser/omni.ja -appDir /usr/lib/firefox-esr/browser {109c96ae-12a6-4e46-9085-7f729eca9022} 4445 true tab
+bezruka+    4791  0.0  1.8 2416568 73192 ?       Sl   06:05   0:01 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 8 -isForBrowser -prefsLen 30902 -prefMapSize 248195 -jsInitLen 234780 -parentBuildID 20241021193311 -greomni /usr/lib/firefox-esr/omni.ja -appomni /usr/lib/firefox-esr/browser/omni.ja -appDir /usr/lib/firefox-esr/browser {28283a9c-f9eb-4f3f-8761-6a4a582d362a} 4445 true tab
+bezruka+    4818  0.0  1.2 399932 50908 ?        Sl   06:05   0:03 /usr/lib/firefox-esr/firefox-esr -contentproc -parentBuildID 20241021193311 -prefsLen 33468 -prefMapSize 248195 -appDir /usr/lib/firefox-esr/browser {2af09af6-896e-489a-bdb0-a790c0f6847d} 4445 true rdd
+bezruka+    4882  0.0  1.8 2416568 73320 ?       Sl   06:06   0:01 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 9 -isForBrowser -prefsLen 30902 -prefMapSize 248195 -jsInitLen 234780 -parentBuildID 20241021193311 -greomni /usr/lib/firefox-esr/omni.ja -appomni /usr/lib/firefox-esr/browser/omni.ja -appDir /usr/lib/firefox-esr/browser {6ac2f781-8f8e-4d75-8aa0-0e62b6f5bc5b} 4445 true tab
+root        6683  0.0  0.0      0     0 ?        I    06:31   0:02 [kworker/3:1-events]
+bezruka+    9346  0.0  0.1   8272  5080 pts/3    Ss   07:17   0:00 /usr/bin/bash --init-file /usr/share/code/resources/app/out/vs/workbench/contrib/terminal/common/scripts/shellIntegration-bash.sh
+bezruka+    9732  0.7  7.5 1914940 304560 ?      Sl   07:19   0:24 /usr/bin/nautilus --gapplication-service
+bezruka+    9762  0.0  0.2 311464 11924 ?        Sl   07:19   0:00 /usr/libexec/gvfsd-recent --spawner :1.5 /org/gtk/gvfs/exec_spaw/4
+root        9791  0.0  0.0      0     0 ?        I    07:19   0:02 [kworker/0:2-ata_sff]
+root        9878  0.0  0.0      0     0 ?        I    07:19   0:00 [kworker/2:0-events]
+root       10095  0.0  0.0      0     0 ?        I    07:22   0:00 [kworker/3:0-ata_sff]
+bezruka+   10206  0.3  6.8 1731628 273288 ?      Sl   07:23   0:09 /usr/bin/gnome-text-editor --gapplication-service
+root       10373  0.0  0.0      0     0 ?        I    07:25   0:02 [kworker/1:1-ata_sff]
+root       11019  0.0  0.2  27028  8496 ?        Ss   07:37   0:00 /usr/sbin/cupsd -l
+root       11020  0.0  0.0      0     0 ?        I    07:37   0:00 [kworker/1:0-ata_sff]
+root       11021  0.0  0.0      0     0 ?        I    07:37   0:00 [kworker/2:2-cgroup_destroy]
+root       11023  0.0  0.3 176228 13688 ?        Ssl  07:37   0:00 /usr/sbin/cups-browsed
+root       11030  0.0  0.0      0     0 ?        I    07:37   0:00 [kworker/u8:2-events_unbound]
+root       11689  0.0  0.0      0     0 ?        I    07:53   0:00 [kworker/u8:0-events_unbound]
+root       12029  0.0  0.0      0     0 ?        I    08:01   0:00 [kworker/u8:1-flush-8:0]
+root       12205  0.0  0.0      0     0 ?        I    08:06   0:00 [kworker/0:0-mm_percpu_wq]
+root       12413  0.0  0.0      0     0 ?        I    08:11   0:00 [kworker/0:1-events]
+root       12438  0.1  1.0 398576 42240 ?        Ssl  08:11   0:00 /usr/libexec/fwupd/fwupd
+root       12450  0.0  0.0      0     0 ?        I    08:12   0:00 [kworker/2:1-events]
+root       12545  0.0  0.0      0     0 ?        I    08:15   0:00 [kworker/u8:3-ext4-rsv-conversion]
+bezruka+   12574  1.8  0.8 398332 34852 ?        SNsl 08:16   0:00 /usr/libexec/tracker-extract-3
+root       12577  0.0  0.0      0     0 ?        I    08:16   0:00 [kworker/1:2-events]
+bezruka+   12594  0.0  0.0   2576   920 ?        S    08:16   0:00 /bin/sh -c "/usr/share/code/resources/app/out/vs/base/node/cpuUsage.sh" 9346
+bezruka+   12595  0.0  0.0   6932  3292 ?        S    08:16   0:00 /bin/bash /usr/share/code/resources/app/out/vs/base/node/cpuUsage.sh 9346
+bezruka+   12598  0.0  0.0   5464   900 ?        S    08:16   0:00 sleep 1
+bezruka+   12600  0.0  0.0   2460   892 pts/3    S+   08:16   0:00 ./block2
+bezruka+   12601  0.0  0.0   2460  1172 pts/3    S+   08:16   0:00 ./block2
+bezruka+   12602  0.0  0.0   2576   900 pts/3    S+   08:16   0:00 sh -c ps aux
+bezruka+   12603  0.0  0.1  11216  4804 pts/3    R+   08:16   0:00 ps aux
+
+Список процессов от родительского процесса:
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root           1  0.0  0.3 168244 12532 ?        Ss   05:22   0:02 /sbin/init
+root           2  0.0  0.0      0     0 ?        S    05:22   0:00 [kthreadd]
+root           3  0.0  0.0      0     0 ?        I<   05:22   0:00 [rcu_gp]
+root           4  0.0  0.0      0     0 ?        I<   05:22   0:00 [rcu_par_gp]
+root           5  0.0  0.0      0     0 ?        I<   05:22   0:00 [slub_flushwq]
+root           6  0.0  0.0      0     0 ?        I<   05:22   0:00 [netns]
+root           8  0.0  0.0      0     0 ?        I<   05:22   0:00 [kworker/0:0H-events_highpri]
+root          10  0.0  0.0      0     0 ?        I<   05:22   0:00 [mm_percpu_wq]
+root          11  0.0  0.0      0     0 ?        I    05:22   0:00 [rcu_tasks_kthread]
+root          12  0.0  0.0      0     0 ?        I    05:22   0:00 [rcu_tasks_rude_kthread]
+root          13  0.0  0.0      0     0 ?        I    05:22   0:00 [rcu_tasks_trace_kthread]
+root          14  0.0  0.0      0     0 ?        S    05:22   0:00 [ksoftirqd/0]
+root          15  0.1  0.0      0     0 ?        I    05:22   0:17 [rcu_preempt]
+root          16  0.0  0.0      0     0 ?        S    05:22   0:00 [migration/0]
+root          18  0.0  0.0      0     0 ?        S    05:22   0:00 [cpuhp/0]
+root          19  0.0  0.0      0     0 ?        S    05:22   0:00 [cpuhp/1]
+root          20  0.0  0.0      0     0 ?        S    05:22   0:00 [migration/1]
+root          21  0.0  0.0      0     0 ?        S    05:22   0:06 [ksoftirqd/1]
+root          23  0.0  0.0      0     0 ?        I<   05:22   0:00 [kworker/1:0H-events_highpri]
+root          24  0.0  0.0      0     0 ?        S    05:22   0:00 [cpuhp/2]
+root          25  0.0  0.0      0     0 ?        S    05:22   0:00 [migration/2]
+root          26  0.0  0.0      0     0 ?        S    05:22   0:00 [ksoftirqd/2]
+root          28  0.0  0.0      0     0 ?        I<   05:22   0:00 [kworker/2:0H-events_highpri]
+root          29  0.0  0.0      0     0 ?        S    05:22   0:00 [cpuhp/3]
+root          30  0.0  0.0      0     0 ?        S    05:22   0:00 [migration/3]
+root          31  0.0  0.0      0     0 ?        S    05:22   0:00 [ksoftirqd/3]
+root          33  0.0  0.0      0     0 ?        I<   05:22   0:00 [kworker/3:0H-events_highpri]
+root          37  0.0  0.0      0     0 ?        S    05:22   0:00 [kdevtmpfs]
+root          38  0.0  0.0      0     0 ?        I<   05:22   0:00 [inet_frag_wq]
+root          39  0.0  0.0      0     0 ?        S    05:22   0:00 [kauditd]
+root          40  0.0  0.0      0     0 ?        S    05:22   0:00 [khungtaskd]
+root          41  0.0  0.0      0     0 ?        S    05:22   0:00 [oom_reaper]
+root          42  0.0  0.0      0     0 ?        I<   05:22   0:00 [writeback]
+root          43  0.0  0.0      0     0 ?        S    05:22   0:06 [kcompactd0]
+root          44  0.0  0.0      0     0 ?        SN   05:22   0:00 [ksmd]
+root          45  0.0  0.0      0     0 ?        SN   05:22   0:02 [khugepaged]
+root          46  0.0  0.0      0     0 ?        I<   05:22   0:00 [kintegrityd]
+root          47  0.0  0.0      0     0 ?        I<   05:22   0:00 [kblockd]
+root          48  0.0  0.0      0     0 ?        I<   05:22   0:00 [blkcg_punt_bio]
+root          49  0.0  0.0      0     0 ?        I<   05:22   0:00 [tpm_dev_wq]
+root          50  0.0  0.0      0     0 ?        I<   05:22   0:00 [edac-poller]
+root          51  0.0  0.0      0     0 ?        I<   05:22   0:00 [devfreq_wq]
+root          53  0.0  0.0      0     0 ?        I<   05:22   0:02 [kworker/2:1H-kblockd]
+root          54  0.0  0.0      0     0 ?        S    05:22   0:01 [kswapd0]
+root          61  0.0  0.0      0     0 ?        I<   05:22   0:00 [kthrotld]
+root          63  0.0  0.0      0     0 ?        I<   05:22   0:00 [acpi_thermal_pm]
+root          66  0.0  0.0      0     0 ?        I<   05:22   0:00 [mld]
+root          67  0.0  0.0      0     0 ?        I<   05:22   0:00 [ipv6_addrconf]
+root          68  0.0  0.0      0     0 ?        I<   05:22   0:00 [kworker/1:1H-kblockd]
+root          73  0.0  0.0      0     0 ?        I<   05:22   0:00 [kstrp]
+root          78  0.0  0.0      0     0 ?        I<   05:22   0:00 [zswap-shrink]
+root          79  0.0  0.0      0     0 ?        I<   05:22   0:00 [kworker/u9:0]
+root         134  0.0  0.0      0     0 ?        I<   05:22   0:00 [kworker/3:1H-kblockd]
+root         135  0.0  0.0      0     0 ?        I<   05:22   0:00 [kworker/0:1H-kblockd]
+root         156  0.0  0.0      0     0 ?        I<   05:22   0:00 [ata_sff]
+root         157  0.0  0.0      0     0 ?        S    05:22   0:00 [irq/18-vmwgfx]
+root         158  0.0  0.0      0     0 ?        S    05:22   0:00 [scsi_eh_0]
+root         159  0.0  0.0      0     0 ?        I<   05:22   0:00 [scsi_tmf_0]
+root         160  0.0  0.0      0     0 ?        S    05:22   0:00 [scsi_eh_1]
+root         161  0.0  0.0      0     0 ?        I<   05:22   0:00 [scsi_tmf_1]
+root         163  0.0  0.0      0     0 ?        S    05:22   0:00 [scsi_eh_2]
+root         164  0.0  0.0      0     0 ?        I<   05:22   0:00 [scsi_tmf_2]
+root         215  0.0  0.0      0     0 ?        S    05:23   0:03 [jbd2/sda1-8]
+root         216  0.0  0.0      0     0 ?        I<   05:23   0:00 [ext4-rsv-conver]
+root         259  0.0  0.4  50008 16612 ?        Ss   05:23   0:01 /lib/systemd/systemd-journald
+root         299  0.0  0.1  27628  6492 ?        Ss   05:23   0:00 /lib/systemd/systemd-udevd
+root         404  0.0  0.0      0     0 ?        I<   05:23   0:00 [cryptd]
+root         405  0.0  0.0      0     0 ?        I<   05:23   0:00 [iprt-VBoxWQueue]
+root         528  0.0  0.2 236960  9392 ?        Ssl  05:23   0:00 /usr/libexec/accounts-daemon
+avahi        530  0.0  0.0   8288  3640 ?        Ss   05:23   0:00 avahi-daemon: running [vbox.local]
+root         531  0.0  0.0   6608  2728 ?        Ss   05:23   0:00 /usr/sbin/cron -f
+message+     532  0.0  0.2  16988 11568 ?        Ss   05:23   0:06 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+root         534  0.0  0.1 230020  4440 ?        SLsl 05:23   0:00 /usr/libexec/low-memory-monitor
+polkitd      535  0.0  0.2 310940 10812 ?        Ssl  05:23   0:00 /usr/lib/polkit-1/polkitd --no-debug
+root         536  0.0  0.2 236992  9012 ?        Ssl  05:23   0:00 /usr/libexec/power-profiles-daemon
+root         537  0.0  0.2 233376  8296 ?        Ssl  05:23   0:00 /usr/libexec/switcheroo-control
+root         538  0.0  0.1  25348  7844 ?        Ss   05:23   0:01 /lib/systemd/systemd-logind
+root         539  0.0  0.3 394920 15076 ?        Ssl  05:23   0:00 /usr/libexec/udisks2/udisksd
+avahi        542  0.0  0.0   8100   356 ?        S    05:23   0:00 avahi-daemon: chroot helper
+root         555  0.0  0.5 258640 23536 ?        Ssl  05:23   0:01 /usr/sbin/NetworkManager --no-daemon
+root         585  0.0  0.0      0     0 ?        S    05:23   0:00 [psimon]
+root         586  0.0  0.1  16532  5872 ?        Ss   05:23   0:00 /sbin/wpa_supplicant -u -s -O DIR=/run/wpa_supplicant GROUP=netdev
+root         590  0.0  0.2 317320 11956 ?        Ssl  05:23   0:00 /usr/sbin/ModemManager
+root         682  0.2  0.9 1352580 39592 ?       Ssl  05:23   0:28 /usr/bin/containerd
+root         768  0.1  0.0 352820  3172 ?        Sl   05:23   0:16 /usr/bin/VBoxDRMClient
+root         771  0.0  0.0 358472  2744 ?        Sl   05:23   0:03 /usr/sbin/VBoxService --pidfile /var/run/vboxadd-service.sh
+root         789  0.0  0.2 240388 10848 ?        Ssl  05:23   0:00 /usr/sbin/gdm3
+rtkit        832  0.0  0.0  22700  1524 ?        SNsl 05:23   0:00 /usr/libexec/rtkit-daemon
+root         884  0.0  1.5 1385596 60620 ?       Ssl  05:23   0:02 /usr/sbin/dockerd -H fd:// --containerd=/run/containerd/containerd.sock
+root        1131  0.0  0.2 233880  8300 ?        Ssl  05:23   0:00 /usr/libexec/upowerd
+colord      1152  0.0  0.3 242324 13728 ?        Ssl  05:23   0:00 /usr/libexec/colord
+root        1418  0.0  0.3 312808 13836 ?        Sl   05:23   0:00 gdm-session-worker [pam/gdm-password]
+bezruka+    1432  0.0  0.2  19756 11400 ?        Ss   05:23   0:00 /lib/systemd/systemd --user
+bezruka+    1436  0.0  0.0 169420  3128 ?        S    05:23   0:00 (sd-pam)
+bezruka+    1452  0.0  0.2  44640  8788 ?        S<sl 05:23   0:00 /usr/bin/pipewire
+bezruka+    1455  0.0  0.3 257220 13680 ?        S<sl 05:23   0:00 /usr/bin/wireplumber
+bezruka+    1457  0.0  0.1  27140  7388 ?        S<sl 05:23   0:00 /usr/bin/pipewire-pulse
+bezruka+    1459  0.0  0.1  10456  5608 ?        Ss   05:23   0:01 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+bezruka+    1462  0.0  0.2 239900 11076 ?        SLsl 05:23   0:00 /usr/bin/gnome-keyring-daemon --foreground --components=pkcs11,secrets --control-directory=/run/user/1004/keyring
+bezruka+    1466  0.0  0.2 237512  9116 ?        Ssl  05:23   0:00 /usr/libexec/gvfsd
+bezruka+    1478  0.0  0.2 380372 10040 ?        Sl   05:23   0:00 /usr/libexec/gvfsd-fuse /run/user/1004/gvfs -f
+bezruka+    1497  0.0  0.1 159280  5740 tty2     Ssl+ 05:23   0:00 /usr/libexec/gdm-wayland-session /usr/bin/gnome-session
+bezruka+    1501  0.0  0.4 297964 16676 tty2     Sl+  05:23   0:00 /usr/libexec/gnome-session-binary
+bezruka+    1528  0.0  0.7 704964 28796 ?        SNsl 05:23   0:02 /usr/libexec/tracker-miner-fs-3
+bezruka+    1561  0.0  0.1  88380  5232 ?        Ssl  05:23   0:00 /usr/libexec/gcr-ssh-agent /run/user/1004/gcr
+bezruka+    1565  0.0  0.1  88828  4916 ?        Ssl  05:23   0:00 /usr/libexec/gnome-session-ctl --monitor
+bezruka+    1567  0.0  0.1   7816  5096 ?        Ss   05:23   0:00 ssh-agent -D -a /run/user/1004/openssh_agent
+bezruka+    1585  0.0  0.5 659372 20264 ?        Ssl  05:23   0:00 /usr/libexec/gnome-session-binary --systemd-service --session=gnome
+bezruka+    1601  0.0  0.2 311212  9516 ?        Sl   05:23   0:00 /usr/libexec/at-spi-bus-launcher --launch-immediately
+bezruka+    1605  9.6 10.5 4961772 422604 ?      Rsl  05:23  16:40 /usr/bin/gnome-shell
+bezruka+    1611  0.0  0.1   9260  4472 ?        S    05:23   0:00 /usr/bin/dbus-daemon --config-file=/usr/share/defaults/at-spi2/accessibility.conf --nofork --print-address 11 --address=unix:path=/run/user/1004/at-spi/bus
+bezruka+    1622  0.0  0.3 572872 14596 ?        Ssl  05:23   0:00 /usr/libexec/gvfs-udisks2-volume-monitor
+bezruka+    1650  0.0  0.2 234440 10236 ?        Ssl  05:23   0:00 /usr/libexec/gvfs-gphoto2-volume-monitor
+bezruka+    1660  0.0  0.2 233352  8108 ?        Ssl  05:23   0:00 /usr/libexec/gvfs-mtp-volume-monitor
+bezruka+    1670  0.0  0.2 312420  9760 ?        Ssl  05:23   0:01 /usr/libexec/gvfs-afc-volume-monitor
+bezruka+    1675  0.0  0.1 233520  8012 ?        Ssl  05:23   0:00 /usr/libexec/gvfs-goa-volume-monitor
+bezruka+    1679  0.0  0.4 597908 19464 ?        Sl   05:23   0:00 /usr/libexec/goa-daemon
+bezruka+    1691  0.0  0.2 312572  9896 ?        Sl   05:23   0:00 /usr/libexec/goa-identity-service
+bezruka+    1708  0.0  0.1 236700  7608 ?        Ssl  05:23   0:00 /usr/libexec/xdg-permission-store
+bezruka+    1710  0.0  0.3 581176 15060 ?        Sl   05:23   0:00 /usr/libexec/gnome-shell-calendar-server
+bezruka+    1721  0.0  0.9 1081300 37060 ?       Ssl  05:23   0:00 /usr/libexec/evolution-source-registry
+bezruka+    1734  0.0  0.7 2653420 28288 ?       Sl   05:23   0:00 /usr/bin/gjs /usr/share/gnome-shell/org.gnome.Shell.Notifications
+bezruka+    1735  0.0  0.2 164320  9468 ?        Sl   05:23   0:00 /usr/libexec/at-spi2-registryd --use-gnome-session
+bezruka+    1741  0.0  0.5 1093140 23744 ?       Ssl  05:23   0:00 /usr/libexec/evolution-calendar-factory
+bezruka+    1753  0.0  0.0   2576   672 ?        Ss   05:23   0:00 sh -c /usr/bin/ibus-daemon --panel disable $([ "$XDG_SESSION_TYPE" = "x11" ] && echo "--xim")
+bezruka+    1754  0.0  0.2 307344 10160 ?        Ssl  05:23   0:00 /usr/libexec/gsd-a11y-settings
+bezruka+    1759  0.0  0.3 313204 14756 ?        Sl   05:23   0:01 /usr/bin/ibus-daemon --panel disable
+bezruka+    1761  0.0  0.6 339844 25164 ?        Ssl  05:23   0:00 /usr/libexec/gsd-color
+bezruka+    1762  0.0  0.3 355236 14092 ?        Ssl  05:23   0:00 /usr/libexec/gsd-datetime
+bezruka+    1764  0.0  0.2 382640 11184 ?        Ssl  05:23   0:00 /usr/libexec/gsd-housekeeping
+bezruka+    1767  0.0  0.6 338668 24280 ?        Ssl  05:23   0:00 /usr/libexec/gsd-keyboard
+bezruka+    1769  0.0  0.7 594452 29420 ?        Ssl  05:23   0:00 /usr/libexec/gsd-media-keys
+bezruka+    1773  0.0  0.6 523880 27108 ?        Ssl  05:23   0:00 /usr/libexec/gsd-power
+bezruka+    1775  0.0  0.3 247204 12860 ?        Ssl  05:23   0:00 /usr/libexec/gsd-print-notifications
+bezruka+    1777  0.0  0.2 454760  9936 ?        Ssl  05:23   0:00 /usr/libexec/gsd-rfkill
+bezruka+    1781  0.0  0.2 233176  8336 ?        Ssl  05:23   0:00 /usr/libexec/gsd-screensaver-proxy
+bezruka+    1786  0.0  0.2 463248 11936 ?        Ssl  05:23   0:00 /usr/libexec/gsd-sharing
+bezruka+    1787  0.0  0.3 385564 13420 ?        Ssl  05:23   0:00 /usr/libexec/gsd-smartcard
+bezruka+    1789  0.0  0.1 231784  6100 ?        Sl   05:23   0:00 /usr/libexec/gsd-disk-utility-notify
+bezruka+    1793  0.0  0.3 319360 13260 ?        Ssl  05:23   0:00 /usr/libexec/gsd-sound
+bezruka+    1796  0.0  0.2 455892 10936 ?        Ssl  05:23   0:00 /usr/libexec/gsd-usb-protection
+bezruka+    1797  0.0  0.6 339264 24468 ?        Ssl  05:23   0:00 /usr/libexec/gsd-wacom
+bezruka+    1812  0.0  2.8 1019092 115340 ?      Sl   05:23   0:05 /usr/bin/gnome-software --gapplication-service
+bezruka+    1849  0.0  1.5 927940 63948 ?        Sl   05:23   0:00 /usr/libexec/evolution-data-server/evolution-alarm-notify
+bezruka+    1883  0.0  0.3 341908 15788 ?        Sl   05:23   0:00 /usr/libexec/gsd-printer
+bezruka+    1888  0.0  0.1 234192  7068 ?        Sl   05:23   0:00 /usr/libexec/ibus-dconf
+bezruka+    1894  0.0  0.7 344608 30328 ?        Sl   05:23   0:01 /usr/libexec/ibus-extension-gtk3
+bezruka+    1912  0.0  0.2 234160  8400 ?        Sl   05:23   0:00 /usr/libexec/ibus-portal
+bezruka+    1941  0.0  0.7 2579696 28548 ?       Sl   05:23   0:00 /usr/bin/gjs /usr/share/gnome-shell/org.gnome.ScreenSaver
+bezruka+    1956  0.0  0.6 743688 25824 ?        Ssl  05:23   0:00 /usr/libexec/evolution-addressbook-factory
+bezruka+    1966  0.8  2.0 252960 82036 ?        S    05:23   1:25 /usr/bin/Xwayland :0 -rootless -noreset -accessx -core -auth /run/user/1004/.mutter-Xwaylandauth.28WB32 -listenfd 4 -listenfd 5 -displayfd 6 -initfd 7
+bezruka+    1988  0.0  0.2 160492  9100 ?        Sl   05:23   0:00 /usr/libexec/ibus-engine-simple
+bezruka+    2003  0.0  0.3 621572 14296 ?        Ssl  05:23   0:00 /usr/libexec/xdg-desktop-portal
+bezruka+    2015  0.0  0.2 460344 10716 ?        Ssl  05:23   0:00 /usr/libexec/xdg-document-portal
+root        2020  0.0  0.0   2480   908 ?        Ss   05:23   0:00 fusermount3 -o rw,nosuid,nodev,fsname=portal,auto_unmount,subtype=portal -- /run/user/1004/doc
+bezruka+    2026  0.0  2.1 551596 84824 ?        Ssl  05:23   0:00 /usr/libexec/gsd-xsettings
+bezruka+    2028  0.0  0.8 667212 33164 ?        Ssl  05:23   0:00 /usr/libexec/xdg-desktop-portal-gnome
+bezruka+    2100  0.0  0.7 342688 28924 ?        Ssl  05:23   0:00 /usr/libexec/xdg-desktop-portal-gtk
+bezruka+    2119  0.0  0.5 190088 22884 ?        Sl   05:23   0:00 /usr/libexec/ibus-x11
+bezruka+    2143  0.0  0.0  18684   248 ?        S    05:23   0:00 /usr/bin/VBoxClient --clipboard
+bezruka+    2144  0.0  0.0 217500  2492 ?        Sl   05:23   0:00 /usr/bin/VBoxClient --clipboard
+bezruka+    2170  0.0  0.0  18684   280 ?        S    05:23   0:00 /usr/bin/VBoxClient --vmsvga-session
+bezruka+    2171  0.0  0.0 150788   312 ?        Sl   05:23   0:03 /usr/bin/VBoxClient --vmsvga-session
+bezruka+    2494  0.0  1.3 694252 55264 ?        Ssl  05:23   0:07 /usr/libexec/gnome-terminal-server
+bezruka+    2520  0.0  0.0   8244  3688 pts/0    Ss+  05:23   0:00 bash
+bezruka+    2581  0.0  0.2 159956  8376 ?        Ssl  05:24   0:00 /usr/libexec/gvfsd-metadata
+bezruka+    2999  0.0  0.1 156452  5520 ?        Ssl  05:25   0:00 /usr/libexec/dconf-service
+bezruka+    3093  1.5  5.4 1214206204 218104 ?   Sl   05:31   2:34 /usr/share/code/code
+bezruka+    3099  0.0  1.1 33789140 46524 ?      S    05:31   0:00 /usr/share/code/code --type=zygote --no-zygote-sandbox
+bezruka+    3100  0.0  1.1 33789132 46472 ?      S    05:31   0:00 /usr/share/code/code --type=zygote
+bezruka+    3102  0.0  0.2 33789160 12008 ?      S    05:31   0:00 /usr/share/code/code --type=zygote
+bezruka+    3134  1.4  3.0 34113604 123988 ?     Sl   05:31   2:26 /usr/share/code/code --type=gpu-process --enable-crash-reporter=8d456455-788a-42f9-8941-19d1e53625de,no_channel --user-data-dir=/home/bezrukavnikov/.config/Code --gpu-preferences=UAAAAAAAAAAgAAAEAAAAAAAAAAAAAAAAAABgAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAABAAAAAAAAAAEAAAAAAAAAAIAAAAAAAAAAgAAAAAAAAA --shared-files --field-trial-handle=3,i,18299075073113812561,2497372753161876770,262144 --disable-features=CalculateNativeWinOcclusion,SpareRendererForSitePerProcess --variations-seed-version
+bezruka+    3151  0.0  1.7 33839432 72044 ?      Sl   05:31   0:03 /usr/share/code/code --type=utility --utility-sub-type=network.mojom.NetworkService --lang=en-US --service-sandbox-type=none --enable-crash-reporter=8d456455-788a-42f9-8941-19d1e53625de,no_channel --user-data-dir=/home/bezrukavnikov/.config/Code --standard-schemes=vscode-webview,vscode-file --enable-sandbox --secure-schemes=vscode-webview,vscode-file --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --code-cache-schemes=vscode-webview,vscode-file --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,18299075073113812561,2497372753161876770,262144 --disable-features=CalculateNativeWinOcclusion,SpareRendererForSitePerProcess --variations-seed-version
+bezruka+    3164  5.5  9.7 1215884664 392296 ?   Rl   05:31   9:10 /usr/share/code/code --type=renderer --enable-crash-reporter=8d456455-788a-42f9-8941-19d1e53625de,no_channel --user-data-dir=/home/bezrukavnikov/.config/Code --standard-schemes=vscode-webview,vscode-file --enable-sandbox --secure-schemes=vscode-webview,vscode-file --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --code-cache-schemes=vscode-webview,vscode-file --app-path=/usr/share/code/resources/app --enable-sandbox --enable-blink-features=HighlightAPI --disable-blink-features=FontMatchingCTMigration, --lang=en-US --num-raster-threads=2 --enable-main-frame-before-activation --renderer-client-id=4 --time-ticks-at-unix-epoch=-1742140422257853 --launch-time-ticks=542437601 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,18299075073113812561,2497372753161876770,262144 --disable-features=CalculateNativeWinOcclusion,SpareRendererForSitePerProcess --variations-seed-version --vscode-window-config=vscode:898a7384-8882-44d8-8c0d-7c6ca5c7fcb9
+bezruka+    3190  0.0  3.3 1213942292 134668 ?   Sl   05:32   0:08 /usr/share/code/code --type=utility --utility-sub-type=node.mojom.NodeService --lang=en-US --service-sandbox-type=none --enable-crash-reporter=8d456455-788a-42f9-8941-19d1e53625de,no_channel --user-data-dir=/home/bezrukavnikov/.config/Code --standard-schemes=vscode-webview,vscode-file --enable-sandbox --secure-schemes=vscode-webview,vscode-file --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --code-cache-schemes=vscode-webview,vscode-file --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,18299075073113812561,2497372753161876770,262144 --disable-features=CalculateNativeWinOcclusion,SpareRendererForSitePerProcess --variations-seed-version
+bezruka+    3366  0.0  0.2 311620  9300 ?        Sl   05:32   0:00 /usr/libexec/gvfsd-trash --spawner :1.5 /org/gtk/gvfs/exec_spaw/0
+bezruka+    3381  0.0  0.2 385644 11796 ?        Sl   05:32   0:00 /usr/libexec/gvfsd-network --spawner :1.5 /org/gtk/gvfs/exec_spaw/1
+bezruka+    3402  0.0  0.2 313728 11808 ?        Sl   05:32   0:00 /usr/libexec/gvfsd-dnssd --spawner :1.5 /org/gtk/gvfs/exec_spaw/3
+bezruka+    3655  0.6  2.8 1213959300 112840 ?   Sl   05:33   0:59 /usr/share/code/code --type=utility --utility-sub-type=node.mojom.NodeService --lang=en-US --service-sandbox-type=none --enable-crash-reporter=8d456455-788a-42f9-8941-19d1e53625de,no_channel --user-data-dir=/home/bezrukavnikov/.config/Code --standard-schemes=vscode-webview,vscode-file --enable-sandbox --secure-schemes=vscode-webview,vscode-file --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --code-cache-schemes=vscode-webview,vscode-file --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,18299075073113812561,2497372753161876770,262144 --disable-features=CalculateNativeWinOcclusion,SpareRendererForSitePerProcess --variations-seed-version
+bezruka+    3918  0.1  2.4 1213959244 97876 ?    Sl   05:37   0:10 /usr/share/code/code --type=utility --utility-sub-type=node.mojom.NodeService --lang=en-US --service-sandbox-type=none --enable-crash-reporter=8d456455-788a-42f9-8941-19d1e53625de,no_channel --user-data-dir=/home/bezrukavnikov/.config/Code --standard-schemes=vscode-webview,vscode-file --enable-sandbox --secure-schemes=vscode-webview,vscode-file --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --code-cache-schemes=vscode-webview,vscode-file --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,18299075073113812561,2497372753161876770,262144 --disable-features=CalculateNativeWinOcclusion,SpareRendererForSitePerProcess --variations-seed-version
+bezruka+    3931  0.0  3.3 1213943912 133316 ?   Sl   05:37   0:08 /usr/share/code/code --type=utility --utility-sub-type=node.mojom.NodeService --lang=en-US --service-sandbox-type=none --dns-result-order=ipv4first --inspect-port=0 --enable-crash-reporter=8d456455-788a-42f9-8941-19d1e53625de,no_channel --user-data-dir=/home/bezrukavnikov/.config/Code --standard-schemes=vscode-webview,vscode-file --enable-sandbox --secure-schemes=vscode-webview,vscode-file --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --code-cache-schemes=vscode-webview,vscode-file --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,18299075073113812561,2497372753161876770,262144 --disable-features=CalculateNativeWinOcclusion,SpareRendererForSitePerProcess --variations-seed-version
+bezruka+    4275  0.0  0.1   8244  4504 pts/2    Ss+  05:44   0:00 bash
+bezruka+    4445  3.2 11.0 11750592 444116 ?     Sl   06:05   4:13 /usr/lib/firefox-esr/firefox-esr
+bezruka+    4514  0.0  0.8 223832 34392 ?        Sl   06:05   0:00 /usr/lib/firefox-esr/firefox-esr -contentproc -parentBuildID 20241021193311 -prefsLen 27374 -prefMapSize 248195 -appDir /usr/lib/firefox-esr/browser {b7557f94-8a05-4064-bb6d-833bc59a9146} 4445 true socket
+bezruka+    4539  0.0  3.1 2466352 128088 ?      Sl   06:05   0:03 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 1 -isForBrowser -prefsLen 27450 -prefMapSize 248195 -jsInitLen 234780 -parentBuildID 20241021193311 -greomni /usr/lib/firefox-esr/omni.ja -appomni /usr/lib/firefox-esr/browser/omni.ja -appDir /usr/lib/firefox-esr/browser {8409ff6c-896a-4f0f-bfe2-350276dd55e7} 4445 true tab
+bezruka+    4591  0.0  2.4 2450428 99288 ?       Sl   06:05   0:02 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 2 -isForBrowser -prefsLen 33171 -prefMapSize 248195 -jsInitLen 234780 -parentBuildID 20241021193311 -greomni /usr/lib/firefox-esr/omni.ja -appomni /usr/lib/firefox-esr/browser/omni.ja -appDir /usr/lib/firefox-esr/browser {34848d72-e549-4f6b-a220-6d8012ef8cab} 4445 true tab
+bezruka+    4647  0.0  0.9 222848 36624 ?        Sl   06:05   0:00 /usr/lib/firefox-esr/firefox-esr -contentproc -parentBuildID 20241021193311 -sandboxingKind 0 -prefsLen 33282 -prefMapSize 248195 -appDir /usr/lib/firefox-esr/browser {2ec0330a-af40-4fce-ab32-bef7a333043b} 4445 true utility
+bezruka+    4673  5.1  6.8 19648964 273428 ?     Sl   06:05   6:42 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 4 -isForBrowser -prefsLen 30716 -prefMapSize 248195 -jsInitLen 234780 -parentBuildID 20241021193311 -greomni /usr/lib/firefox-esr/omni.ja -appomni /usr/lib/firefox-esr/browser/omni.ja -appDir /usr/lib/firefox-esr/browser {a3464e8b-bdcc-4bb6-a476-158d0efabd6a} 4445 true tab
+bezruka+    4730  0.1  2.3 2449460 92816 ?       Sl   06:05   0:12 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 6 -isForBrowser -prefsLen 30821 -prefMapSize 248195 -jsInitLen 234780 -parentBuildID 20241021193311 -greomni /usr/lib/firefox-esr/omni.ja -appomni /usr/lib/firefox-esr/browser/omni.ja -appDir /usr/lib/firefox-esr/browser {3f386727-5705-4cc5-ae5b-9d6e828fb928} 4445 true tab
+bezruka+    4771  0.0  1.8 2416572 75476 ?       Sl   06:05   0:01 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 7 -isForBrowser -prefsLen 30902 -prefMapSize 248195 -jsInitLen 234780 -parentBuildID 20241021193311 -greomni /usr/lib/firefox-esr/omni.ja -appomni /usr/lib/firefox-esr/browser/omni.ja -appDir /usr/lib/firefox-esr/browser {109c96ae-12a6-4e46-9085-7f729eca9022} 4445 true tab
+bezruka+    4791  0.0  1.8 2416568 73192 ?       Sl   06:05   0:01 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 8 -isForBrowser -prefsLen 30902 -prefMapSize 248195 -jsInitLen 234780 -parentBuildID 20241021193311 -greomni /usr/lib/firefox-esr/omni.ja -appomni /usr/lib/firefox-esr/browser/omni.ja -appDir /usr/lib/firefox-esr/browser {28283a9c-f9eb-4f3f-8761-6a4a582d362a} 4445 true tab
+bezruka+    4818  0.0  1.2 399932 50908 ?        Sl   06:05   0:03 /usr/lib/firefox-esr/firefox-esr -contentproc -parentBuildID 20241021193311 -prefsLen 33468 -prefMapSize 248195 -appDir /usr/lib/firefox-esr/browser {2af09af6-896e-489a-bdb0-a790c0f6847d} 4445 true rdd
+bezruka+    4882  0.0  1.8 2416568 73320 ?       Sl   06:06   0:01 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 9 -isForBrowser -prefsLen 30902 -prefMapSize 248195 -jsInitLen 234780 -parentBuildID 20241021193311 -greomni /usr/lib/firefox-esr/omni.ja -appomni /usr/lib/firefox-esr/browser/omni.ja -appDir /usr/lib/firefox-esr/browser {6ac2f781-8f8e-4d75-8aa0-0e62b6f5bc5b} 4445 true tab
+root        6683  0.0  0.0      0     0 ?        I    06:31   0:02 [kworker/3:1-events]
+bezruka+    9346  0.0  0.1   8272  5080 pts/3    Ss   07:17   0:00 /usr/bin/bash --init-file /usr/share/code/resources/app/out/vs/workbench/contrib/terminal/common/scripts/shellIntegration-bash.sh
+bezruka+    9732  0.7  7.5 1914940 304560 ?      Sl   07:19   0:24 /usr/bin/nautilus --gapplication-service
+bezruka+    9762  0.0  0.2 311464 11924 ?        Sl   07:19   0:00 /usr/libexec/gvfsd-recent --spawner :1.5 /org/gtk/gvfs/exec_spaw/4
+root        9791  0.0  0.0      0     0 ?        I    07:19   0:02 [kworker/0:2-ata_sff]
+root        9878  0.0  0.0      0     0 ?        I    07:19   0:00 [kworker/2:0-events]
+root       10095  0.0  0.0      0     0 ?        I    07:22   0:00 [kworker/3:0-ata_sff]
+bezruka+   10206  0.3  6.8 1731628 273288 ?      Sl   07:23   0:09 /usr/bin/gnome-text-editor --gapplication-service
+root       10373  0.0  0.0      0     0 ?        I    07:25   0:02 [kworker/1:1-ata_sff]
+root       11019  0.0  0.2  27028  8496 ?        Ss   07:37   0:00 /usr/sbin/cupsd -l
+root       11020  0.0  0.0      0     0 ?        I    07:37   0:00 [kworker/1:0-ata_sff]
+root       11021  0.0  0.0      0     0 ?        I    07:37   0:00 [kworker/2:2-cgroup_destroy]
+root       11023  0.0  0.3 176228 13688 ?        Ssl  07:37   0:00 /usr/sbin/cups-browsed
+root       11030  0.0  0.0      0     0 ?        I    07:37   0:00 [kworker/u8:2-events_unbound]
+root       11689  0.0  0.0      0     0 ?        I    07:53   0:00 [kworker/u8:0-events_unbound]
+root       12029  0.0  0.0      0     0 ?        I    08:01   0:00 [kworker/u8:1-flush-8:0]
+root       12205  0.0  0.0      0     0 ?        I    08:06   0:00 [kworker/0:0-mm_percpu_wq]
+root       12413  0.0  0.0      0     0 ?        I    08:11   0:00 [kworker/0:1-events]
+root       12438  0.1  1.0 398576 42240 ?        Ssl  08:11   0:00 /usr/libexec/fwupd/fwupd
+root       12450  0.0  0.0      0     0 ?        I    08:12   0:00 [kworker/2:1-events]
+root       12545  0.0  0.0      0     0 ?        I    08:15   0:00 [kworker/u8:3-ext4-rsv-conversion]
+bezruka+   12574  1.8  0.8 398332 34852 ?        SNsl 08:16   0:00 /usr/libexec/tracker-extract-3
+root       12577  0.0  0.0      0     0 ?        I    08:16   0:00 [kworker/1:2-events]
+bezruka+   12594  0.0  0.0   2576   920 ?        S    08:16   0:00 /bin/sh -c "/usr/share/code/resources/app/out/vs/base/node/cpuUsage.sh" 9346
+bezruka+   12595  0.0  0.0   6932  3292 ?        S    08:16   0:00 /bin/bash /usr/share/code/resources/app/out/vs/base/node/cpuUsage.sh 9346
+bezruka+   12598  0.0  0.0   5464   900 ?        S    08:16   0:00 sleep 1
+bezruka+   12600  0.0  0.0   2460  1352 pts/3    S+   08:16   0:00 ./block2
+bezruka+   12604  0.0  0.0   2576   940 pts/3    S+   08:16   0:00 sh -c ps aux
+bezruka+   12605  100  0.1  11216  4816 pts/3    R+   08:16   0:00 ps aux
