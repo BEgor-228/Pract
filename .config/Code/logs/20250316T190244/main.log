@@ -1,5 +1,0 @@
-2025-03-16 19:02:44.731 [info] update#setState idle
-2025-03-16 19:03:14.749 [info] update#setState checking for updates
-2025-03-16 19:03:35.018 [info] update#setState available for download
-2025-03-16 19:07:45.134 [info] Extension host with pid 3205 exited with code: 0, signal: unknown.
-2025-03-16 19:07:45.305 [error] [UtilityProcessWorker]: terminated unexpectedly with code 82, signal: unknown
